@@ -1,0 +1,53 @@
+
+.moviesContainer {
+  height: calc(100vh - 6rem);
+  padding: 2rem;
+  width: 100%;
+  justify-content: center;
+  display: flex;
+  gap: 2rem;
+  flex-wrap: wrap;
+}
+
+.movieContainer {
+  height: 15rem;
+  width: 11rem;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 0.0625em 0.0625em,
+    rgba(0, 0, 0, 0.25) 0px 0.125em 0.5em,
+    rgba(255, 255, 255, 0.1) 0px 0px 0px 1px inset;
+  border-radius: 0.5rem;
+  overflow: hidden;
+  position: relative;
+  display: flex;
+  justify-content: center;
+}
+
+.moiveImg-Container {
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+}
+.moiveImg-Container img {
+  height: auto;
+  width: 100%;
+}
+.movieName-container {
+  width: 100%;
+  height: 2.5rem;
+  position: absolute;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.486);
+  
+  backdrop-filter: blur(5px);
+}
+.m-n-innerContainer {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.2rem;
+  font-family: "Larsseit";
+  font-size: 800;
+  color: white;
+}

@@ -1,0 +1,13 @@
+<app-nav-bar>
+</app-nav-bar>
+<app-banner [movieSelectedData]="movieSelect"></app-banner>
+<div class="moviesContainer" >
+  <div class="movieContainer" *ngFor="let movieData of data.moviesData"  (click)="openDialog(movieData)" >
+    <div class="moiveImg-Container" >
+      <img src="{{movieData.movieImg}}" alt="">
+    </div>
+    <div class="movieName-container"> 
+      <div class="m-n-innerContainer">{{movieData.title}}</div>
+    </div>
+  </div>
+</div>

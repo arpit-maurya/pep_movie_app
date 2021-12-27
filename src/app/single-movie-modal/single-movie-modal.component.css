@@ -1,0 +1,86 @@
+.single-movieData {
+  height: 22.7rem;
+  width: 20rem;
+  background-color: whitesmoke;
+  border-radius: 0.5rem;
+  overflow: hidden;
+}
+.s-m-img {
+  height: 35%;
+  width: 100%;
+
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.s-m-img img {
+  height: auto;
+  width: 100%;
+}
+
+.s-m-dataContainer{
+  height: 65%;
+  width: 100%;
+}
+.movieName{
+ height: 4rem;
+ width: 100%;
+ color:  black;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ font-size: 1.5rem;
+ font-family: 'Larsseit';
+ font-weight: 700;
+}
+
+.moiveRate{
+ height: 2.5rem;
+ width: 1005;
+  display: flex;
+ /* justify-content: center; */
+ padding-left: 1.75rem;
+ align-items: center;
+ font-size: 1.5rem;
+ font-family: 'Larsseit';
+ font-weight: 700;
+ color: black;
+}
+.movieGenre{
+ height: 2.5rem;
+ width: 1005;
+  display: flex;
+ /* justify-content: center; */
+ padding-left: 1.75rem;
+ align-items: center;
+ font-size: 1.5rem;
+ font-family: 'Larsseit';
+ font-weight: 700;
+ color: black;
+}
+.movieStock {
+ height: 2.5rem;
+ width: 1005;
+  display: flex;
+ /* justify-content: center; */
+ padding-left: 1.75rem;
+ align-items: center;
+ font-size: 1.5rem;
+ font-family: 'Larsseit';
+ font-weight: 700;
+ color: black;
+}
+.whishList{
+ height: 3.3rem;
+ width: 1005;
+  display: flex;
+ /* justify-content: center; */
+ align-items: center;
+ justify-content: center;
+ font-size: 1.5rem;
+ font-family: 'Larsseit';
+ font-weight: 700;
+ box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+ background-color: red;
+}

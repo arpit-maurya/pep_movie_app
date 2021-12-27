@@ -1,0 +1,18 @@
+<div class="single-movieData">
+  <div class="s-m-img">
+    <img src="{{ singleMovieData.movieImg }}" alt="" />
+  </div>
+  <div class="s-m-dataContainer">
+    <div class="movieName">Movie : {{ singleMovieData.title }}</div>
+    <div class="moiveRate">
+    Rate : ⭐  {{ singleMovieData.dailyRentalRate }}
+    </div>
+    <div class="movieGenre">
+    Genre : {{ singleMovieData.genre.name }}
+    </div>
+    <div class="movieStock">
+    Stock : {{ singleMovieData.numberInStock }}
+    </div>
+    <div class="whishList"> Add To Cart</div>
+  </div>
+</div>

@@ -1,0 +1,22 @@
+<mat-toolbar>
+  <span class="textMovieApp">Movie App</span>
+        <div class="movieIconDiv"><mat-icon>home</mat-icon> Home</div>
+        <div class="movieIconDiv"><mat-icon>perm_contact_calendar</mat-icon> Home</div>
+        
+        <div class="movieIconDiv"><mat-icon>feedback</mat-icon> Feedback</div>
+        
+  <span class="example-spacer"></span>
+  <span>
+    <div class="movieIcon-Con">
+
+      <div class="movieIconDiv" mat-button [matMenuTriggerFor]="menu">
+        <mat-icon>account_circle</mat-icon> Account
+      </div>
+     
+      <mat-menu #menu="matMenu">
+        <button mat-menu-item (click)="openDialog()">Login</button>
+        <button mat-menu-item>Log Out</button>
+      </mat-menu>
+    </div>
+  </span>
+</mat-toolbar>
